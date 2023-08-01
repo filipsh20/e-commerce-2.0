@@ -1,4 +1,4 @@
-import { Form, Controller, Input, Label, Button } from "../../styles/Auth";
+import { Form, Input, Label, Button } from "../../styles/Auth";
 
 const Signin = () => {
   const handleSubmit = (event) => {
@@ -9,10 +9,10 @@ const Signin = () => {
   return (
     <Form onSubmit={handleSubmit}>
       <h1>Getting started!</h1>
-      <Controller>
-        <Input placeholder="Choose your username" />
-        <Label>Hola</Label>
-      </Controller>
+
+      <Input placeholder="Choose your username" />
+      <Label>Hola</Label>
+
       <Input placeholder="you@example.com" />
       <Input placeholder="Create a strong password" />
       <Button>Sign up</Button>

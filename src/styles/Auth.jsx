@@ -12,10 +12,17 @@ export const Content = styled.div`
   display: flex;
   height: 600px;
   width: 800px;
+
 `;
 
 export const Left = styled.div`
   flex: 1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
 
   @media screen and (max-width: 850px) {
     flex: 0;
@@ -24,27 +31,22 @@ export const Left = styled.div`
 
 export const Right = styled.div`
   flex: 1;
-  border: 1px solid black;
 `;
 
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-`
-export const Controller = styled.div`
-  position: relative;
-`
+  border: 1px solid black;
+`;
 
 export const Label = styled.label`
-  position: absolute;
-  margin-left: 8em;
-`
+  color: red;
 
-export const Input = styled.input`
+`;
 
-`
+export const Input = styled.input``;
 
 export const Button = styled.button`
   height: 100px;
-`
+`;
