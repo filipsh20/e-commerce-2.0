@@ -12,7 +12,6 @@ export const Content = styled.div`
   display: flex;
   height: 600px;
   width: 800px;
-
 `;
 
 export const Left = styled.div`
@@ -31,6 +30,9 @@ export const Left = styled.div`
 
 export const Right = styled.div`
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Form = styled.form`
@@ -38,15 +40,17 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
+  width: 80%;
 `;
 
-export const Label = styled.label`
-  color: red;
+export const Label = styled.label``;
 
+export const Input = styled.input`
+  width: 100%;
+  box-sizing: border-box;
 `;
-
-export const Input = styled.input``;
 
 export const Button = styled.button`
-  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
 `;
